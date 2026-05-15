@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  projectId: "i7jrtr",
   experimentalModifyObstructiveThirdPartyCode: true,
   viewportHeight: 880,
   viewportWidth: 1280,
